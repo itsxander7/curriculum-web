@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexander Alvarez</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="40"
+            width="40"
+            src="img/foto-web.png"
+            alt="programador"
+          />
+          <div class="logotype">
+            &nbsp Alexander Alvarez Cedeño<br />
+            &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{ development }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <p class="profile-details">
+            Soy un apasionado por la arquitectura y desarrollo de software,
+            Estoy listo para enfrentar proyectos desafiantes, trabajar en equipo
+            y utilizar la tecnología para resolver problemas y crear soluciones
+            innovadoras que impulsen el crecimiento y la eficiencia de la
+            empresa. Mi pasión por la programación y mi dedicación a la
+            excelencia me motivan a dar lo mejor de mí.
+          </p>
+          <button class="profile-btn">Descargar cv</button>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/foto-web.png"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2016-2023</div>
+            <div class="experience-company">Rawlings S.A</div>
+            <div class="experience-position">Instructor</div>
+            <div class="experience-description">
+              Como líder a cargo de personal en una empresa, he acumulado una
+              amplia experiencia en la gestión de equipos y la promoción de un
+              entorno de trabajo colaborativo y productivo. Mi trayectoria
+              incluye supervisar y motivar a un diverso grupo de empleados,
+              fomentando la comunicación efectiva y la resolución de problemas.
+              He sido responsable de la planificación y ejecución de estrategias
+              para maximizar la eficiencia de los recursos humanos, así como de
+              la capacitación y desarrollo de los miembros del equipo.
+            
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">HABILIDADES TECNICAS</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">JAVASCRIPT</li>
+          <li class="skills-skill">ASP.NET</li>
+          <li class="skills-skill">JAVA</li>
+          <li class="skills-skill">C#</li>
+          
+        </ul>
+      </section>
+    </div>
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">HABILIDADES BLANDAS</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">TRABAJO EN EQUIPO</li>
+          <li class="skills-skill">EMPATIA</li>
+          <li class="skills-skill">ADAPTABILIDAD</li>
+          <li class="skills-skill">COMUNICACION</li>
+          <li class="skills-skill">RESPETO</li>
+          <li class="skills-skill">RESPONSABILIDAD</li>
+          
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Dirección:</p>
+            <p class="contact-text">Turrialba, Cartago</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text">sanjob0904@gmail.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">
+              Deje su mensaje y con gusto le responderé
+            </p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required type="text" name="name" id="name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            
+            
+            <li>
+              <a href="https://github.com/itsxander7" class="social-link">
+                <img src="img/social/github.svg" alt="github profile" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/alex-alvarez-dev"
+                class="social-link"
+              >
+                <img src="img/social/linkedin.svg" alt="linkedin profile" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </body>
+</html>
