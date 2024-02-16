@@ -81,6 +81,7 @@
 .logotype {
   display: flex;
   justify-content: center;
+  color: aliceblue;
 }
 
 @media (max-width: 950px) {

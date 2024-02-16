@@ -4,7 +4,7 @@
 }
 
 .experiences-body {
-  background-color: var(--primary-color);
+  background-color: #114e3b;
   color: var(--text-color-inverse);
 }
 
@@ -12,6 +12,7 @@
   width: 100%;
   position: relative;
   top: 2px;
+  background-color: #114e3b;
 }
 
 .wave_bottom {
@@ -55,6 +56,7 @@
   padding: 25px;
   max-width: 500px;
   margin: 0 auto;
+  background-color: #114e3b;
 }
 
 @media (min-width: 950px) {

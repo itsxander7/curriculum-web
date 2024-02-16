@@ -1,11 +1,11 @@
 :root {
-  --theme-color: white;
-  --primary-color: #124f88;
-  --secondary-color: #f7c331;
+  --theme-color: rgb(19, 48, 70);
+  --primary-color: #114e3b;
+  --secondary-color: #edede6;
   --text-color-inverse: white;
-  --text-color: black;
-  --navbar-shallow-color: #e5e5e5;
-  --menu-mobile-background-color: #3a4460;
+  --text-color: rgb(247, 246, 246);
+  --navbar-shallow-color: #114e3b;
+  --menu-mobile-background-color: #eae9e4;
 }
 
 html {
